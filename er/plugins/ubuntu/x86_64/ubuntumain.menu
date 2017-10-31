@@ -1,0 +1,8 @@
+LABEL UBUNTUINSTALLX64OL
+MENU LABEL ^Ubuntu x64 Install - Internet
+KERNEL er/plugins/ubuntu/x86_64/vmlinuz
+INITRD er/plugins/ubuntu/x86_64/initrd.gz
+APPEND vga=788
+TEXT HELP
+                 Ubuntu x64 Internet Install.
+ENDTEXT
