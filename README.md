@@ -1,3 +1,7 @@
+This is an update from erpxe version 1.2
+=====
+To make it compatible with latested Linux distros, like ubuntu 16, centos 7 etc
+
 ERPXE
 =====
 
