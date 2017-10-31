@@ -1,0 +1,12 @@
+MENU BEGIN MEMTEST
+MENU TITLE Memory Tests
+MENU LABEL ^Memory Tests
+MENU BACKGROUND er/plugins/memtest/memtest.png
+
+MENU INCLUDE er/plugins/memtest/memtestmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+
+MENU END
+

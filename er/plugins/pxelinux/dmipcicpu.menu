@@ -1,0 +1,20 @@
+LABEL DMI-TEST
+MENU LABEL ^DMI Test
+KERNEL boot/isolinux/dmitest.c32
+TEXT HELP
+                 DMI Hardware Test.
+ENDTEXT
+
+LABEL PCI-TEST
+MENU LABEL ^PCI Test
+KERNEL boot/isolinux/pcitest.c32
+TEXT HELP
+                 PCI Architecture hardware test.
+ENDTEXT
+
+LABEL CPUID-TEST
+MENU LABEL ^CPU-ID Test
+KERNEL boot/isolinux/cpuidtest.c32
+TEXT HELP
+                 CPU hardware test.
+ENDTEXT
